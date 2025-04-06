@@ -138,3 +138,17 @@ The script will:
 - The build script excludes development files like .git and node_modules
 - Only necessary runtime files are included in the final package
 - Manifest V3 is the primary target for new builds
+
+Configure Firefox Developer Edition:
+
+    Open Firefox Developer Edition.
+
+    Type about:config into the address bar and press Enter.
+
+    Click "Accept the Risk and Continue".
+
+    In the search bar at the top, type xpinstall.signatures.required.
+
+    You should see the preference xpinstall.signatures.required listed, likely set to true.
+
+    Double-click on the preference name (or click the toggle button on the right) to change the value to false.
